@@ -17,9 +17,9 @@
     <main class="py-3">
         <!--content wrapper-->
         <div class="col d-md-flex flex-md-row">
-            <!--div/form/search history-->
+            <!--div form and search history-->
             <div class="col-12 col-md-3 px-2">
-                <!--city submis/search hist-->
+                <!--city and search history-->
                 <form class="row mt-2 d-md-flex flex-md-col bg-light p-2" id="search-container">
                     <h2>Search for a City:</h2>
                     <input class="form-control col-9 mb-2" type="text" id="searchBar"
@@ -28,10 +28,11 @@
                             class="fa fa-search"></i></button>
                 </form>
             </div>
-            <!--div wrapper current/5day-->
+            <!--current and fiveDay-->
             <div class="col-12 col-md-9">
-                <!--container for current-->
-                <div class="col-12 d-md-flex flex-md-row py-2 border border-black-50 bg-white mb-3">
+                <!--current-->
+                <div class="col-12 d-md-flex flex-md-row py-2 border border-black-50 bg-white mb-3"
+                    id="current-container">
                     <div class="card border-0">
                         <h2 id="location" class="overflow-hidden">Location (Date)</h2>
                         <p id="temperature">Temperature:</p>
@@ -40,43 +41,43 @@
                         <p id="uv">UV Index:</p>
                     </div>
                 </div>
-                <h2>5-Day Forecast:</h2>
-                <!--5day container-->
+                <h2>5 Day Forecast:</h2>
+                <!--fiveDay-->
                 <div class="col-12 d-md-flex flex-lg-row justify-content-between pt-md-3 text-light">
-                    <!--Day +1-->
-                    <div class="5day card bg-primary py-3 pl-2 pr-4 mb-3">
-                        <h3 class="5day-date">Date</h3>
-                        <p class="5day-condition"></p>
-                        <p class="5day-temp">Temp:</p>
-                        <p class="5day-hum">Hum: </p>
+                    <!--Day 2-->
+                    <div class="fiveDay card bg-primary py-3 pl-2 pr-4 mb-3">
+                        <h3 class="fiveDay-date">Date</h3>
+                        <p class="fiveDay-condition"></p>
+                        <p class="fiveDay-temp">Temp:</p>
+                        <p class="fiveDay-hum">Hum: </p>
                     </div>
-                    <!--Day +2-->
-                    <div class="5day card bg-primary py-3 pl-2 pr-4 mb-3">
-                        <h3 class="5day-date">Date</h3>
-                        <p class="5day-condition"></p>
-                        <p class="5day-temp">Temp:</p>
-                        <p class="5day-hum">Hum: </p>
+                    <!--Day 3-->
+                    <div class="fiveDay card bg-primary py-3 pl-2 pr-4 mb-3">
+                        <h3 class="fiveDay-date">Date</h3>
+                        <p class="fiveDay-condition"></p>
+                        <p class="fiveDay-temp">Temp:</p>
+                        <p class="fiveDay-hum">Hum: </p>
                     </div>
-                    <!--Day +3-->
-                    <div class="5day card bg-primary py-3 pl-2 pr-4 mb-3">
-                        <h3 class="5day-date">Date</h3>
-                        <p class="5day-condition"></p>
-                        <p class="5day-temp">Temp:</p>
-                        <p class="5day-hum">Hum: </p>
+                    <!--Day 4-->
+                    <div class="fiveDay card bg-primary py-3 pl-2 pr-4 mb-3">
+                        <h3 class="fiveDay-date">Date</h3>
+                        <p class="fiveDay-condition"></p>
+                        <p class="fiveDay-temp">Temp:</p>
+                        <p class="fiveDay-hum">Hum: </p>
                     </div>
-                    <!--Day +4-->
-                    <div class="5day card bg-primary py-3 pl-2 pr-4 mb-3">
-                        <h3 class="5day-date">Date</h3>
-                        <p class="5day-condition"></p>
-                        <p class="5day-temp">Temp:</p>
-                        <p class="5day-hum">Hum: </p>
+                    <!--Day 5-->
+                    <div class="fiveDay card bg-primary py-3 pl-2 pr-4 mb-3">
+                        <h3 class="fiveDay-date">Date</h3>
+                        <p class="fiveDay-condition"></p>
+                        <p class="fiveDay-temp">Temp:</p>
+                        <p class="fiveDay-hum">Hum: </p>
                     </div>
-                    <!--Day +5-->
-                    <div class="5day card bg-primary py-3 pl-2 pr-4 mb-3">
-                        <h3 class="5day-date">Date</h3>
-                        <p class="5day-condition"></p>
-                        <p class="5day-temp">Temp:</p>
-                        <p class="5day-hum">Hum: </p>
+                    <!--Day 6-->
+                    <div class="fiveDay card bg-primary py-3 pl-2 pr-4 mb-3">
+                        <h3 class="fiveDay-date">Date</h3>
+                        <p class="fiveDay-condition"></p>
+                        <p class="fiveDay-temp">Temp:</p>
+                        <p class="fiveDay-hum">Hum: </p>
                     </div>
                 </div>
             </div>
